@@ -3,9 +3,9 @@ package com.bbva.mzic.dto.prueba;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-public class Costumer {
 
-    public class PracticeDTO implements Serializable  {
+
+public class Costumer implements Serializable  {
         private static final long serialVersionUID = 2931699728946643245L;
     
     private int id;
@@ -71,5 +71,4 @@ public class Costumer {
             .append("code", code)
             .toString();
     }
-}
 }

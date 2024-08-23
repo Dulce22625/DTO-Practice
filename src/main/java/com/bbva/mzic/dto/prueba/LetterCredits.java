@@ -4,8 +4,7 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-public class LetterCredits {
-    public class PracticeDTO implements Serializable  {
+public class LetterCredits implements Serializable  {
         private static final long serialVersionUID = 2931699728946643245L;
     
     private String letter;
@@ -98,5 +97,4 @@ public String toString() {
         .toString();
 }
 
-}
 }

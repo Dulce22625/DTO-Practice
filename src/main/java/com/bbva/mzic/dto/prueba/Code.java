@@ -1,6 +1,10 @@
-public class Code {
+package com.bbva.mzic.dto.prueba;
 
-    public class PracticeDTO implements Serializable  {
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
+public class Code implements Serializable  {
         private static final long serialVersionUID = 2931699728946643245L;
     
     private int id;
@@ -43,5 +47,4 @@ public class Code {
                 .toString();
         }
 
-}
 }
