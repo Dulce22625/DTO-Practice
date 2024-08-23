@@ -1,5 +1,15 @@
-public class Banks {
 
+package com.bbva.mzic.dto.prueba;
+
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+public class Banks {
+   
+   
+    public class PracticeDTO implements Serializable  {
+        private static final long serialVersionUID = 2931699728946643245L;
+    
     private int id;
     private String name;
     private List<Code>Code
@@ -64,4 +74,5 @@ public class Banks {
             .toString();
     }
 
+}
 }

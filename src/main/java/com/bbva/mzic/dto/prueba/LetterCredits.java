@@ -1,5 +1,7 @@
 public class LetterCredits {
-
+    public class PracticeDTO implements Serializable  {
+        private static final long serialVersionUID = 2931699728946643245L;
+    
     private String letter;
     private String reference;
     private int sequence;
@@ -92,3 +94,4 @@ public String toString() {
 
 }
 
+}

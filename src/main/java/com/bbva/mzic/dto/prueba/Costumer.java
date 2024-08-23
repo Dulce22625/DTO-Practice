@@ -1,5 +1,8 @@
 public class Costumer {
 
+    public class PracticeDTO implements Serializable  {
+        private static final long serialVersionUID = 2931699728946643245L;
+    
     private int id;
     private String address;
     private List<Code>Code
@@ -63,4 +66,5 @@ public class Costumer {
             .append("code", code)
             .toString();
     }
+}
 }
